@@ -23,7 +23,7 @@ docker build -t josersosa/android-studio:4.2.1 .
 ### On Linux:
 
 ```
-docker run -it --name android-studio \
+docker run --rm --name android-studio \
 -e DISPLAY=$DISPLAY \
 -v /tmp/.X11-unix:/tmp/.X11-unix \
 -v /home/$USER:/data \
@@ -35,6 +35,8 @@ josersosa/android-studio:4.2.1
 ```
 in construction...
 ```
+
+## First installation
 
 
 
